@@ -1,5 +1,4 @@
 body {
-    padding: 0 4%;
     background-color: #e5e5e5;
 }
 
@@ -7,10 +6,19 @@ h1 {
     text-align: center;
 }
 
+.img-wrapper {
+    max-width: 400px;
+    width: 96%;
+}
+
+.img-wrapper > img {
+    width: 100%;
+}
+
 .name-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-items: center;
     align-items: center;
-    gap: 40px;
+    gap: 48px;
 }
