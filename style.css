@@ -20,5 +20,5 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-items: center;
     align-items: center;
-    gap: 48px;
+    gap: 80px;
 }
