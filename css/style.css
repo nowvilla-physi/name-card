@@ -1,15 +1,16 @@
+html {
+    font-size: 100%;
+}
+
 body {
+    margin-top: 40px;
     padding: 0 4%;
     background-color: #e5e5e5;
 }
 
 h1 {
+    font-size: 2rem;
     text-align: center;
-}
-
-.img-wrapper {
-    max-width: 400px;
-    min-width: 320px;
 }
 
 .img-wrapper > img {
@@ -22,4 +23,5 @@ h1 {
     justify-items: center;
     align-items: center;
     gap: 80px;
+    margin-top: 40px;
 }
